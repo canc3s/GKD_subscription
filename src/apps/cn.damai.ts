@@ -11,7 +11,7 @@ export default defineGkdApp({
       fastQuery: true,
       rules: [
         {
-          // fastQuery: true,
+          action: 'clickCenter',
           activityIds:
             'cn.damai.trade.newtradeorder.ui.projectdetail.ui.activity.ProjectDetailActivity',
           matches:
@@ -21,7 +21,7 @@ export default defineGkdApp({
           // snapshotUrls: 'https://i.gkd.li/snapshot/1751436778718',
         },
         {
-          // fastQuery: true,
+          action: 'clickCenter',
           activityIds:
             'cn.damai.commonbusiness.seatbiz.sku.qilin.ui.NcovSkuActivity',
           matches: '[vid="btn_buy_view"]',

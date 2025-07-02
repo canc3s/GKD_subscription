@@ -8,10 +8,10 @@ export default defineGkdApp({
       key: 0,
       name: '立即预定',
       desc: '该规则需要在高级设置中开启[强制点击]才能生效',
-      matchTime: 10000,
-      actionMaximum: 1,
+      matchTime: 5000,
+      actionMaximum: 2,
       resetMatch: 'app',
-      priorityTime: 10000,
+      // priorityTime: 10000,
       rules: [
         {
           fastQuery: true,
@@ -31,7 +31,7 @@ export default defineGkdApp({
       matchTime: 5000,
       actionMaximum: 2,
       resetMatch: 'app',
-      priorityTime: 10000,
+      // priorityTime: 10000,
       rules: [
         {
           fastQuery: true,

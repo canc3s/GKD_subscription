@@ -20,7 +20,7 @@ export default defineGkdApp({
             '[vid="trade_project_detail_purchase_status_bar_container_fl"]',
           exampleUrls:
             'https://m.gkd.li/57941037/6680a0b8-0796-4165-88fc-1f16cd6c67dd',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1751436778718',
+          // snapshotUrls: 'https://i.gkd.li/snapshot/1751436778718',
         },
       ],
     },
@@ -39,7 +39,7 @@ export default defineGkdApp({
           matches: '[vid="btn_buy_view"]',
           exampleUrls:
             'https://m.gkd.li/57941037/6680a0b8-0796-4165-88fc-1f16cd6c67dd',
-          snapshotUrls: 'https://i.gkd.li/snapshot/1751436787429',
+          // snapshotUrls: 'https://i.gkd.li/snapshot/1751436787429',
         },
       ],
     },
